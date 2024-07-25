@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link className="navbar-brand" to="/">
           <img
             className="logo"
-            src="http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png"
+            src="https://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png"
             alt=""
           />
         </Link>

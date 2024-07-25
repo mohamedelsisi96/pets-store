@@ -20,7 +20,7 @@ function Search() {
 
   async function getPets() {
     const response = await fetch(
-      `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${bread}`,
+      `https://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${bread}`,
     );
     const data = await response.json();
     setPets(data.pets);
