@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 export default defineConfig({
-  base: '/pet-store/',
+  base: '/pets-store/',
   plugins: [react()],
 
   root: 'src',
